@@ -26,11 +26,3 @@ document.getElementById("item").addEventListener('click', function() {
     itemSection.style.display = 'block';
     orderSection.style.display = 'none';
 });
-
-document.getElementById("order").addEventListener('click', function() {
-    // Show Place Order page, hide others
-    homeSection.style.display = 'none';
-    customerSection.style.display = 'none';
-    itemSection.style.display = 'none';
-    orderSection.style.display = 'block';
-});
