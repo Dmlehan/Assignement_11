@@ -1,9 +1,9 @@
 #pic {
     background-image: url("assets/images/img.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /*height: calc(100vh - 20px);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*!*height: calc(100vh - 20px);*!*/
     margin: 0;
 }
 
