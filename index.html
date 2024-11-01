@@ -85,6 +85,37 @@
 
 </section>
 
+<!-- Items Section Content -->
+<section id="items">
+    <!-- Content for Items Form -->
+    <p class="fs-1 text-center">Item Form</p>
+    <div class="container">
+        <div class="card mx-auto" style="max-width: 1000px;">
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="ItemCode" aria-label="ItemCode" id="code">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Description" aria-label="Description" id="description">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Unit Price" aria-label="Unit Price" id="price">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="QtyOnHand" aria-label="QtyOnHand" id="qtyOnHand">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-4 gap-3">
+                    <button type="button" class="btn btn-primary" id="saveItem">Save</button>
+                    <button type="button" class="btn btn-success" id="updateItem" >Update</button>
+                    <button type="button" class="btn btn-danger" id="deleteItem">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <script src="models/script.js"></script>
 <script src="assets/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
